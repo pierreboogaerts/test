@@ -1,0 +1,90 @@
+body
+{background-color: #fffef1 ; font-family: 'Trebuchet MS', georgia, arial; display: flex; flex-direction: column; justify-content: center;
+}
+*body {font-size: small; display: flex; flex-direction: column;}
+
+
+font {font-size: 14px}
+
+#h2
+{font-size: 2rem ; color:black; font-family: "arial black"; display: flex; justify-content: center;}
+
+.container {
+
+background-color: #fffef1; }
+
+
+.container .card-header {background-color:#dc8c45; color: #fffef1; width: 100%; font-size: medium;font-family: 'Trebuchet MS', georgia, arial} 
+
+.container 
+{display:flex ;flex-direction: row; justify-content: space-around;}
+
+#button1
+{background-color: #2d6f4a; color: #fffef1;; position: relative bottom 0px}
+#button1:hover
+{background-color: #489564; color: #fffef1}
+
+#button2 
+{background-color: #48956c; color: #fffef1;; position: relative top 4px}
+#button2:hover
+{background-color: #2d6f4a; color: #fffef1}
+
+#button3
+{background-color: #2d6f4a; color: #fffef1;; position: relative top 4px}
+#button3:hover
+{background-color: #489564; color: #fffef1}
+#button4
+{background-color: #48956c; color: #fffef1;; position: relative top 4px}
+#button4:hover
+{background-color: #2d6f4a; color: #fffef1}
+
+
+
+#ensemble img
+{width: 90% }
+
+.card-body
+{background-color: #fffef1}
+
+.block
+{ width: 200px; height: 300px; image-orientation: center; flex-direction: column; justify-content: space-between}
+
+#block1
+{max-width: 250px;}
+
+#block2
+{max-width: 250px;}
+
+#block3
+{max-width: 250px;}
+
+#ensemble 
+{  display: flex;
+    flex-wrap: wrap;
+    inline-size: unset;
+    flex-direction: row;
+    justify-content: space-around;
+font-size: small;
+font-family: 'Trebuchet MS', georgia, arial; 
+margin:10px 10px; padding: 5px;} 
+
+hr
+{color: #f9c7bb}
+
+section #section3
+{background-color:  #489564; font-family: 'Trebuchet MS', georgia, arial; color: black; display: flex; flex-direction: row; flex-wrap: nowrap;}
+.photo img
+{   border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 150px;
+    border-radius : 200px }
+
+footer
+{background-color:#2d6f4a; height:5em; width: : 100%; color: white ;font-family: 'Trebuchet MS', georgia, arial; position: absolute ; bottom:0; width:100%; height: 3px 
+  }
+#hrbottom
+{color: #489564;}
+#bottom
+{display: flex; flex-direction: row; justify-content: space-between;background-color:#2d6f4a}
+#footertop
+{background-color: #2d6f4a;}
